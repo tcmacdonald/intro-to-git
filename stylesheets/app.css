@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Gotham";
+  src: local("Gotham"), url("../fonts/Gotham-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Gotham-Book";
+  src: local("Gotham-Book"), url("../fonts/Gotham-Book.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Gotham-Italic";
+  src: local("Gotham-Italic"), url("../fonts/Gotham-MediumIta.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Gotham-Bold";
+  src: local("Gotham-Bold"), url("../fonts/Gotham-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: bold; }
+
+.reveal blockquote {
+  width: 80%;
+  padding: 0.5em;
+  margin: 0 auto 1em auto;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
