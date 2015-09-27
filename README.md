@@ -29,3 +29,11 @@ Windows, [https://git-for-windows.github.io/](https://git-for-windows.github.io/
 
 3. **A Github account…**  
 Sign up for free at [https://github.com/join](https://github.com/join).
+
+## Course Materials
+
+Resource|URL
+---|---
+Slides|[http://git.gdicincy.com/](http://git.gdicincy.com/)
+Appendix|[https://github.com/tcmacdonald/intro-to-git/blob/master/appendix.md](https://github.com/tcmacdonald/intro-to-git/blob/master/appendix.md)
+Starter Kit|[https://github.com/tcmacdonald/intro-to-git-starter-kit](https://github.com/tcmacdonald/intro-to-git-starter-kit)
