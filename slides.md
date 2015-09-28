@@ -6,7 +6,7 @@
 <br>
 
 ### Taylor C. MacDonald  <!-- .element: class="dark" -->
-http://git.gdicincy.com
+https://github.com/tcmacdonald/intro-to-git
 
 ---
 
