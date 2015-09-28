@@ -136,3 +136,7 @@ There are also some GUIs for Git...
 
 ## Questions?
 
+If not, let's review the class appendix together...
+
+[https://github.com/tcmacdonald/intro-to-git/blob/master/appendix.md](https://github.com/tcmacdonald/intro-to-git/blob/master/appendix.md)
+
