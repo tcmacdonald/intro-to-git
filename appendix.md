@@ -37,13 +37,19 @@ _Hint: You can install Bash bindings in Windows via [Git for Windows](https://gi
 
 `cp` - Copy a file or directory  
 > *Optional flags:*  
-> &nbsp;&nbsp;Copy recursively (directories)... `rm -r`  
+> &nbsp;&nbsp;Copy recursively (directories)... `cp -R`  
 
 `touch` - Change timestamp (or create a file)  
+`which` - Show the path to command  
 `history` - Show command history  
+> *Special characters:*  
+> &nbsp;&nbsp;Recall previous command... `!!`  
+> &nbsp;&nbsp;Repeat command in your history... `!<linenumber>`  
+
 `cat` - Concatenate and print files  
 `less` - Paged output; the opposite of more  
-`nano` - Edit text files  
+`nano` - Text editor  
+`git` - Revision control
 
 ## Git Workflow
 
@@ -59,6 +65,19 @@ First, let's personalize Git by setting some configuration values...
 
     $ git config --global user.name "Your Name"
     $ git config --global user.email "your_email@whatever.com"
+
+## Configuring Git
+
+You should now have a file in your home directory called `.gitconfig`. Let's take a look...
+
+    $ cat ~/.gitconfig
+      [user]
+        email = tcmacdonald@gmail.com
+        name = Taylor C. MacDonald
+      [core]
+        editor = /usr/bin/vim
+
+You can add new configuration values, aliases, etc. here if needed.
 
 ## Initializing a New Repository
 
@@ -623,9 +642,10 @@ Github makes this really easy.
 Let's do this together so we can get an idea of how this workflow operates in the real world.
 
 1. Go to [https://github.com/tcmacdonald/intro-to-git-starter-kit](https://github.com/tcmacdonald/intro-to-git-starter-kit) and fork the repository to your own account.
-2. Clone your personal fork of the Starter Kit.
-3. Make some changes locally, add some files, etc. and commit them to your repo.
-4. Push those changes back to Github.
-5. Submit a pull-request back to the original repository with all your changes.
+1. Create a new fork of the Starter Kit respository.
+1. Add your fork as a new remote.
+1. Make some changes locally– add some files, edit some files, etc. and commit them to your repo.
+1. Push those changes back to your fork.
+1. Submit a pull-request back to the original repository with all your changes.
 
 ## Questions?

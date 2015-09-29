@@ -38,7 +38,8 @@ _Girl Develop It is here to provide affordable and accessible programs to learn 
 > Software projects have lots of files and often require multiple developers making updates to the same codebase.
 <br>
 
-* Can lead to accidental overwrites. <!-- .element: class="fragment" -->
+* Accidental overwrites <!-- .element: class="fragment" -->
+* Bugs <!-- .element: class="fragment" -->
 * Who changed what? <!-- .element: class="fragment" -->
 * Collaborating remotely is hard. <!-- .element: class="fragment" -->
 
