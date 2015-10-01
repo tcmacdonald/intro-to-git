@@ -48,8 +48,7 @@ _Hint: You can install Bash bindings in Windows via [Git for Windows](https://gi
 
 `cat` - Concatenate and print files  
 `less` - Paged output; the opposite of more  
-`nano` - Text editor  
-`git` - Revision control
+`git` - Version control
 
 ## Git Workflow
 
@@ -78,6 +77,29 @@ You should now have a file in your home directory called `.gitconfig`. Let's tak
         editor = /usr/bin/vim
 
 You can add new configuration values, aliases, etc. here if needed.
+
+## Setting Your Editor
+
+Let's tell Git to use an editor of our choice, such as *Sublime Text*...
+
+**Mac Users:**
+
+    $ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin" /usr/local/sbin/subl
+    $ git config --global core.editor "subl -n -w"
+
+**Windows Users:** Something like... this?
+
+    $ git config --global core.editor "'c:/program files/sublime text 3/subl.exe' -w"
+
+...or this?
+
+    $ git config --global core.editor "'C:\\Program Files\\Sublime Text 3\\subl.exe' -w"
+
+...or this?
+
+    $ git config --global core.editor "subl.exe -w"
+
+More here... [http://stackoverflow.com/questions/8951275/how-can-i-make-sublime-text-the-default-editor-for-git](http://stackoverflow.com/questions/8951275/how-can-i-make-sublime-text-the-default-editor-for-git)
 
 ## Initializing a New Repository
 
@@ -261,7 +283,7 @@ Let's say you changed your mind and want to unstage a particular file.
 
 You can do this by passing a file to the `git reset` command...
 
-    $ git reset HEAD index.html
+    $ git reset index.html
       Unstaged changes after reset:
       M   index.html
 
@@ -345,7 +367,7 @@ At this point, our project folder has a couple uncommited files so let's stage a
 
 Now, we commit...
 
-    $ git commit -m "Add uncommitted files."
+    $ git commit -m "Leftovers."
       [master 0b2b1f9] Add uncommitted files.
       2 files changed, 7 insertions(+), 1 deletion(-)
       create mode 100644 news.html
@@ -496,7 +518,7 @@ Now let's edit that file to say "Hello cruel world!" and then commit that update
       (END) 
 
     $ git add index.html
-    $ git commit -am "Update index.html"
+    $ git commit -m "Update index.html"
 
 Now if we cat the contents of index.html, we can see that the file has indeed changed...
 
@@ -633,7 +655,7 @@ Since forking is super fast in Github and public repo's are free, this is an ext
 
 A "pull request" (PR) is a method of submitting changes for consideration to a software project.
 
-Technically, PR's are a workflow method and not a feature of the revision control system itself.
+Technically, PR's are a workflow method and not a feature of the version control system itself.
 
 Github makes this really easy.
 

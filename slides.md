@@ -127,10 +127,11 @@ There are also some GUIs for Git...
 
 > Github helps you visualize your repository while providing some powerful collaboration and code management tools.
 
-* Forks &amp; pull requests <!-- .element: class="fragment" -->
+* Forks &amp; Pull Requests <!-- .element: class="fragment" -->
 * Issues <!-- .element: class="fragment" -->
-* Wikis <!-- .element: class="fragment" -->
+* Wikis &amp; Github Pages<!-- .element: class="fragment" -->
 * Organizations <!-- .element: class="fragment" -->
+* Releases &amp; Tags <!-- .element: class="fragment" -->
 * ...and more <!-- .element: class="fragment" -->
 
 ---
