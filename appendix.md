@@ -84,7 +84,7 @@ Let's tell Git to use an editor of our choice, such as *Sublime Text*...
 
 **Mac Users:**
 
-    $ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin" /usr/local/sbin/subl
+    $ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/sbin/subl
     $ git config --global core.editor "subl -n -w"
 
 **Windows Users:** Something like... this?
