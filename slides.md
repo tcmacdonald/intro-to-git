@@ -36,11 +36,11 @@ _Girl Develop It is here to provide affordable and accessible programs to learn 
 ## The Problem
 
 > Software projects have lots of files and often require multiple developers making updates to the same codebase.
-<br>
 
-* Accidental overwrites <!-- .element: class="fragment" -->
-* Bugs <!-- .element: class="fragment" -->
-* Who changed what? <!-- .element: class="fragment" -->
+Leads to bugs, accidental overwrites. <!-- .element: class="fragment" -->
+
+* Who changed what? when? <!-- .element: class="fragment" -->
+* How to merge your code and mine? <!-- .element: class="fragment" -->
 * Collaborating remotely is hard. <!-- .element: class="fragment" -->
 
 ---
@@ -137,8 +137,4 @@ There are also some GUIs for Git...
 ---
 
 ## Questions?
-
-If not, let's review the class appendix together...
-
-[https://github.com/tcmacdonald/intro-to-git/blob/master/appendix.md](https://github.com/tcmacdonald/intro-to-git/blob/master/appendix.md)
 
