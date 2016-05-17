@@ -62,7 +62,7 @@ Leads to bugs, accidental overwrites. <!-- .element: class="fragment" -->
 
 Two types of version control systems:
 
-**Centralized** and **Decentralized**
+**Centralized** and **Distributed**
 
 ---
 
