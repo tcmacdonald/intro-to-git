@@ -35,5 +35,6 @@ Sign up for free at [https://github.com/join](https://github.com/join).
 Resource|URL
 ---|---
 Slides|[http://git.gdicincy.com/](http://git.gdicincy.com/)
-Appendix|[https://github.com/tcmacdonald/intro-to-git/blob/master/appendix.md](https://github.com/tcmacdonald/intro-to-git/blob/master/appendix.md)
+Part One: Intro to Bash|[https://github.com/tcmacdonald/intro-to-git/blob/master/bash.md](https://github.com/tcmacdonald/intro-to-git/blob/master/bash.md)
+Part Two: Intro to Git|[https://github.com/tcmacdonald/intro-to-git/blob/master/git.md](https://github.com/tcmacdonald/intro-to-git/blob/master/git.md)
 Starter Kit|[https://github.com/tcmacdonald/intro-to-git-starter-kit](https://github.com/tcmacdonald/intro-to-git-starter-kit)
