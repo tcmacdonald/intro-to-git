@@ -5,7 +5,7 @@
 
 First, let's personalize Git by setting some configuration values...
 
-`git config --global user.name "Your Name"`
+`git config --global user.name "Your Name"`  
 `git config --global user.email "your_email@whatever.com"`
 
 <br>
