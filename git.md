@@ -136,8 +136,8 @@ _(Github is just another remote repository.)_
 ---
 
 > **_Demo_:**  
-> 1. Edit a file on Github.
-2. Pull it's changes down.
+> 1. Edit a file on Github.  
+2. Pull it's changes down.  
 
 ---
 
@@ -149,9 +149,9 @@ _(Github is just another remote repository.)_
 ---
 
 > **_Did You Know?_**  
-> There are three ways to start a new project... 
-1. `git init` 
-2. `git clone`
+> There are three ways to start a new project...  
+1. `git init`  
+2. `git clone`  
 3. Fork a repository and `git clone`
 
 ---
@@ -209,8 +209,8 @@ When you encounter a conflict, you need to edit the file by hand.
 ---
 
 > **_In-Class Exercise_:**  
-> 1. Create a merge conflict by editing the same file on two branches.
-2. Merge the branches.
+> 1. Create a merge conflict by editing the same file on two branches.  
+2. Merge the branches.  
 3. Resolve the conflict.
 
 ---
@@ -227,8 +227,8 @@ These are Github specific terms (though other platforms have adopted them).
 ---
 
 > **_In-Class Exercise_:**  
-> 1. Create a new fork of... [girldevelopitcincinnati/memehub](https://github.com/girldevelopitcincinnati/memehub)
-2. Clone the fork and add new animated gif the respository.
+> 1. Create a new fork of... [girldevelopitcincinnati/memehub](https://github.com/girldevelopitcincinnati/memehub)  
+2. Clone the fork and add new animated gif the respository.  
 3. Submit a pull-request.
 
 ---
